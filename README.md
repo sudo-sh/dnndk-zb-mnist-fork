@@ -9,7 +9,7 @@ I forked this repo to perform single MNIST inference on the Zedboard
 
 
 
-# dnndk-zedboard
+<!-- # dnndk-zedboard
 This repo is part of the work presented at the [6th South-East Europe Design Automation, Computer Engineering, Computer Networks and Social Media Conference (SEEDA-CECNSM 2021), Preveza, Greece, September 24th-26th 2021](https://seeda2021.uowm.gr/) and published in [IEEE Xplore](https://ieeexplore.ieee.org/document/9566259).
  
 # Paper: "Workflow on CNN utilization and inference in FPGA for embedded applications"
@@ -167,4 +167,4 @@ Step 1: Install the application via "install.sh"\
 Step 2: Build the model using the Makefile in samples/mnist\
 Step 3: Run the generated executable to collect the result as mentioned in the paper
 
-###### tags: `fpga` `dnndk` `zedboard`
+###### tags: `fpga` `dnndk` `zedboard` -->
