@@ -73,7 +73,8 @@ int main()
 	// Pre-load images
 	std::cout << "..... Pre-loading Images ....." << std::endl;
 	std::vector<cv::Mat> img_list;
-	for (int n = 0; n < 10000; n++){
+	//for (int n = 0; n < 10000; n++){
+	for (int n = 0; n < 1; n++){
 //	for (int n = 0; n < 10; n++){
 		// File name
 		std::ostringstream oss;
@@ -103,7 +104,8 @@ int main()
 	std::cout << "..... Start Inference ....." << std::endl;
 	float mean[1] = {0.0};
 	std::vector<int> result;
-	for (int n = 0; n < 10000; n++){
+	//for (int n = 0; n < 10000; n++){
+	for (int n = 0; n < 1; n++){
 //	for (int n = 0; n < 10; n++){
 		// Set to DPU
 #if 1
